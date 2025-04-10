@@ -1,7 +1,3 @@
-let string = 'C\'mon!'
-let recursOp = string.lastIndexOf(string);
-let finalString = string.reverse
-
 function reverseString(string) {
     if (string.length === 1) {
         return string;
